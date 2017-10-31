@@ -31,7 +31,7 @@ class Pikachu extends React.Component {
   componentDidUpdate() {
     this.resizePikachu()
   }
-  
+
   render() {
     return (
       <div>
