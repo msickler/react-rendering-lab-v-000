@@ -8,6 +8,9 @@ import Circle from '../src/components/Circle';
 import Animation from '../src/components/Animation';
 import Pikachu from '../src/components/Pikachu';
 
+import { configure } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-15';
+configure({ adapter: new Adapter() });
 
 describe('Rating', () => {
   it('sets the increasing state correctly', () => {
